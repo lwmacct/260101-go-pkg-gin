@@ -1,6 +1,7 @@
 package response
 
 import (
+	"fmt"
 	"net/http"
 
 	"github.com/gin-gonic/gin"
@@ -42,7 +43,7 @@ func Forbidden(c *gin.Context, message ...string) {
 func NotFound(c *gin.Context, resource string) {
 	message := MsgResourceNotFound
 	if resource != "" {
-		message = resource + " not found"
+		message = fmt.Sprintf(MsgNotFoundFormat, resource)
 	}
 	Failure(c, http.StatusNotFound, message)
 }

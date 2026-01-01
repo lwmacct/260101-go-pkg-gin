@@ -39,6 +39,9 @@ const (
 	// MsgResourceNotFound 表示请求的资源不存在
 	MsgResourceNotFound = "资源不存在"
 
+	// MsgNotFoundFormat 资源未找到消息格式（使用 fmt.Sprintf）
+	MsgNotFoundFormat = "%s not found"
+
 	// MsgResourceConflict 表示资源冲突
 	MsgResourceConflict = "资源冲突"
 
