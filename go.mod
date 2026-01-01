@@ -1,4 +1,4 @@
-module github.com/lwmacct/251128-workspace
+module github.com/lwmacct/260101-go-pkg-gin
 
 go 1.25.4
 
