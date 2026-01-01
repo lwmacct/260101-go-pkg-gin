@@ -2,10 +2,12 @@
 
 <!--TOC-->
 
-- [Quick Start](#quick-start) `:12+14`
-  - [Init Development Environment](#init-development-environment) `:14+6`
-  - [List All Available Tasks](#list-all-available-tasks) `:20+6`
-- [Related Links](#related-links) `:26+4`
+## Table of Contents
+
+- [Quick Start](#quick-start) `:14+14`
+  - [Init Development Environment](#init-development-environment) `:16+6`
+  - [List All Available Tasks](#list-all-available-tasks) `:22+6`
+- [Related Links](#related-links) `:28+4`
 
 <!--TOC-->
 
