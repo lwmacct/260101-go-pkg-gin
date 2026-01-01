@@ -49,7 +49,7 @@ func ResetContent(c *gin.Context) {
 
 // PartialContent 206 部分内容（范围请求）
 func PartialContent(c *gin.Context, data any, message ...string) {
-	msg := "部分内容"
+	msg := MsgPartialContent
 	if len(message) > 0 && message[0] != "" {
 		msg = message[0]
 	}
